@@ -1,0 +1,9 @@
+.venv/
+.uv-cache/
+.uv-python/
+__pycache__/
+*.py[cod]
+logs/
+outputs/
+data/
+results/

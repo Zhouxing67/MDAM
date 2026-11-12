@@ -1,6 +1,7 @@
 import torch
 from itertools import chain
-from collections import defaultdict, Iterable
+from collections import defaultdict
+from collections.abc import Iterable
 from copy import deepcopy
 
 

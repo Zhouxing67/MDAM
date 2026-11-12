@@ -1,0 +1,16 @@
+[project]
+name = "mdam"
+version = "0.1.0"
+description = "Multi-Decoder Attention Model for routing problems"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "numpy>=2.3,<3",
+    "scipy>=1.16,<2",
+    "torch>=2.10,<3",
+    "tqdm>=4.67,<5",
+    "tensorboard>=2.20,<3",
+    "requests>=2.32,<3",
+]
+
+[tool.uv]
+package = false
